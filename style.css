@@ -7,8 +7,8 @@ body{
 .container{
     display: flex;
     flex-direction: row;
+    padding: auto;
     align-items: center;
-
 }
 
 h1{
@@ -17,4 +17,9 @@ h1{
 
 img{
     border: 1px solid;
+    padding: 10px;
+}
+
+.container p{
+    padding: 20px;
 }
